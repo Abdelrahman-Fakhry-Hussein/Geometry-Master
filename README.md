@@ -1,2 +1,2 @@
 # Geometry-Master
-Computer geometry tasks on C#
+Computational Geometry tasks on C#
