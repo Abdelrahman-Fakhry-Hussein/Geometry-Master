@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "59bce4YzaKxu6NWV8k3h6RPFt96xS7lnI48TYVOIYD0rPaU/0tRKDwaqu9CJe9afS+FqZD+tc5h78+1rfyVTUQ==",
+  "success": true,
+  "projectFilePath": "D:\\CG\\geometry\\CGAlgorithmsUnitTest\\CGAlgorithmsUnitTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.4.346202\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.4.346202.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
