@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "r+LV5y4QqMCJXxqbyQK1O9YKKXOn6bwyzv3Wb7oTwd32vehgVbIJUy2YxyxV25wN/YCkxvQDI+geJYDQi55oRg==",
+  "dgSpecHash": "iDPOiGLTZtNHUTLVBijQjb4zyOg4Gtg45TRD2OfgM4XVUOvg9n0ExJ0MY24SHbpI2t9Lif0KNd+GA+p2k8Dgvg==",
   "success": true,
-  "projectFilePath": "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj",
+  "projectFilePath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.4.346202\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.4.346202.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers\\0.4.346202\\microsoft.dotnet.upgradeassistant.extensions.default.analyzers.0.4.346202.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\abdel\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

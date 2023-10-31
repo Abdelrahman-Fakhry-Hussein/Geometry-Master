@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CG\\geometry\\CGUI\\CGUI.csproj": {}
+    "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUI\\CGUI.csproj": {}
   },
   "projects": {
-    "D:\\CG\\geometry\\CGAlgorithms\\CGAlgorithms.csproj": {
+    "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\CGAlgorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CG\\geometry\\CGAlgorithms\\CGAlgorithms.csproj",
+        "projectUniqueName": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\CGAlgorithms.csproj",
         "projectName": "CGAlgorithms",
-        "projectPath": "D:\\CG\\geometry\\CGAlgorithms\\CGAlgorithms.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\CG\\geometry\\CGAlgorithms\\obj\\",
+        "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\CGAlgorithms.csproj",
+        "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj": {
-                "projectPath": "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj"
+              "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj": {
+                "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj"
               }
             }
           }
@@ -70,29 +74,34 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CG\\geometry\\CGUI\\CGUI.csproj": {
+    "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUI\\CGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CG\\geometry\\CGUI\\CGUI.csproj",
+        "projectUniqueName": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUI\\CGUI.csproj",
         "projectName": "CGUI",
-        "projectPath": "D:\\CG\\geometry\\CGUI\\CGUI.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\CG\\geometry\\CGUI\\obj\\",
+        "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUI\\CGUI.csproj",
+        "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows7.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -102,11 +111,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\CG\\geometry\\CGAlgorithms\\CGAlgorithms.csproj": {
-                "projectPath": "D:\\CG\\geometry\\CGAlgorithms\\CGAlgorithms.csproj"
+              "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\CGAlgorithms.csproj": {
+                "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGAlgorithms\\CGAlgorithms.csproj"
               },
-              "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj": {
-                "projectPath": "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj"
+              "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj": {
+                "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj"
               }
             }
           }
@@ -145,7 +154,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -157,21 +167,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj": {
+    "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj",
+        "projectUniqueName": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj",
         "projectName": "CGUtilities",
-        "projectPath": "D:\\CG\\geometry\\CGUtilities\\CGUtilities.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\CG\\geometry\\CGUtilities\\obj\\",
+        "projectPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\CGUtilities.csproj",
+        "packagesPath": "C:\\Users\\abdel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abdel\\Documents\\GitHub\\Geometry-Master\\geometry-master\\CGUtilities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,11 +237,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200-preview.22628.1\\RuntimeIdentifierGraph.json"
         }
       }
     }
