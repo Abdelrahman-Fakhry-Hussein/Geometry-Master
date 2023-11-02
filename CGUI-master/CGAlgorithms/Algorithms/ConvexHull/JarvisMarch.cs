@@ -12,10 +12,12 @@ namespace CGAlgorithms.Algorithms.ConvexHull
         public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
         {
             //if counterclockwise we update the first with the last and discard the second 
+
             // if all in the same clockwise we keep it
+            outPoints = new List<Point>();
             if (points.Count() <= 3)
             {
-                outPoints = new List<Point>();
+               
                 foreach (Point pasaa in points.Distinct().ToList())
                 {
                     // Console.WriteLine("(" + pasaa.X + "," + pasaa.Y + ")");
@@ -25,51 +27,59 @@ namespace CGAlgorithms.Algorithms.ConvexHull
             }
             else
             {
-
+                Console.WriteLine("*");
                 List<Point> sorted = points.OrderBy(e => e.X).ToList();
-                if (sorted.Count > 0)
+                Point p = sorted[0];
+                Console.WriteLine("(" + p.X + "," + p.Y + ").");
+                int ind = 1;
+                outPoints.Add(p);
+                do
                 {
-                    Point p = sorted[0];
 
-                    outPoints.Add(p);
+                    ind = (ind + 1) % points.Count();
 
-                    int num1 = 0;
-
-                    for (int i = 1; i < sorted.Count(); i++)
+                    
+                    for (int j = 0; j < points.Count(); j++)
                     {
 
-                        Point p2 = sorted[i];
-
-                        bool temp = true;
-                        for (int j = 0; j < sorted.Count(); j++)
+                    
+                        if (CGUtilities.HelperMethods.CheckTurn(new Line((Point)p, (Point)points[ind]), points[j]) == Enums.TurnType.Left)
                         {
-                            if (j == num1 || j == i)
-                                continue;
-                            else
+                            ind = j;
+
+                        }
+                        else if (CGUtilities.HelperMethods.CheckTurn(new Line((Point)p, (Point)points[ind]), points[j]) == Enums.TurnType.Colinear)
+                        {
+
+                            if (CGUtilities.HelperMethods.PointOnSegment(points[j], p, points[ind]) == false)
                             {
-                                if (CGUtilities.HelperMethods.CheckTurn(new Line(p, p2), sorted[j]) == Enums.TurnType.Left)
-                                {
-                                    p2 = sorted[j];
-                                    temp = false;
-
-                                    break;
-
-                                }
-
+                                ind = j;
                             }
+                           
+
                         }
-                        if (temp)
-                        {
-                            outPoints.Add(p2);
-                            Console.WriteLine("(" + p2.X + "," + p2.Y + ")");
 
 
-                            p = p2;
-                        }
 
                     }
-                }
+
+                    
+                    if (points[ind].X == sorted[0].X && points[ind].Y == sorted[0].Y)
+                        break;
+                    outPoints.Add(points[ind]);
+                    p = points[ind];
+                } while (true);
+
+
+                foreach(Point pasaa in outPoints)
+                    Console.WriteLine("(" + pasaa.X + "," + pasaa.Y + ")");
+
+
+
+
+
             }
+          
            
         }
 
