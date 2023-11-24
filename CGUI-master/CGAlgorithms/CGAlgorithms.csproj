@@ -55,7 +55,6 @@
     <Compile Include="Algorithms\SegmentIntersection\SweepLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CGUtilities\CGUtilities.csproj">
       <Project>{2cf0939d-73cf-4863-b088-db3ff4003450}</Project>
